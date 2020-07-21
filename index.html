@@ -1,9 +1,363 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
-<body>
-    <h1>simplyworks.dev</h1>
-    <p>We currently do not have a website, however if you have any questions please email <a href="mailto:admin@simplyworks.dev">admin@simplyworks.dev</a>.</p>
+<head>
+
+    <!--- basic page needs
+   ================================================== -->
+    <meta charset="utf-8">
+    <title>simplyworks.dev</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+   ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+	================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- header 
+   ================================================== -->
+    <header id="header" class="row">
+
+        <div class="header-logo">
+            <a href="index.html">simplyworks.dev</a>
+        </div>
+
+        <nav id="header-nav-wrap">
+            <ul class="header-main-nav">
+                <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
+                <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll" href="#our-apps" title="Our apps">Our apps</a></li>
+            </ul>
+
+            <a href="#our-apps" title="download" class="smoothscroll button button-primary cta">Download</a>
+        </nav>
+
+        <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+
+    </header> <!-- /header -->
+
+
+    <!-- home
+   ================================================== -->
+    <section id="home" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000
+        data-natural-height=2000>
+
+        <div class="overlay"></div>
+        <div class="home-content">
+
+            <div class="row contents">
+                <div class="home-content-left">
+
+                    <h3 data-aos="fade-up">Welcome to simplyworks.dev</h3>
+
+                    <h1 data-aos="fade-up">
+                        Designing and building apps in Flutter with the end result of, it simply works!
+                    </h1>
+
+                    <div class="buttons" data-aos="fade-up">
+                        <a href="#download" class="smoothscroll button stroke">
+                            <span class="icon-circle-down" aria-hidden="true"></span>
+                            Download App
+                        </a>
+                        <a href="http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=39b54a"
+                            data-lity class="button stroke">
+                            <span class="icon-play" aria-hidden="true"></span>
+                            Watch Video
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="home-image-right">
+                    <img src="images/app.png" data-aos="fade-up">
+                </div>
+            </div>
+
+        </div> <!-- end home-content -->
+
+        <div class="home-scrolldown">
+            <a href="#about" class="scroll-icon smoothscroll">
+                <span>Scroll Down</span>
+                <i class="icon-arrow-right" aria-hidden="true"></i>
+            </a>
+        </div>
+
+    </section> <!-- end home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about">
+
+        <div class="row about-intro">
+
+            <div class="col-four">
+                <h1 class="intro-header" data-aos="fade-up">About our apps</h1>
+            </div>
+            <div class="col-eight">
+                <p class="lead" data-aos="fade-up">
+                    Our apps are created to solve a need, without advertising. We work directly with the subject matter
+                    experts who actually use the apps on a regular basis, this leads to higher quality apps that are
+                    thoroughly tested by actual people and not just automated testing.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="row about-features">
+
+            <div class="features-list block-1-3 block-m-1-2 block-mob-full group">
+
+                <div class="bgrid feature" data-aos="fade-up">
+
+                    <span class="icon"><i class="icon-chat"></i></span>
+
+                    <div class="service-content">
+                        <h3>Easy to use design</h3>
+
+                        <p>Our designs are simple and effective. The objective is to have an app that is understandable
+                            and can be used without any additional instructions or training.
+                        </p>
+
+                    </div>
+
+                </div> <!-- /bgrid -->
+
+                <div class="bgrid feature" data-aos="fade-up">
+
+                    <span class="icon"><i class="icon-settings"></i></span>
+
+                    <div class="service-content">
+                        <h3>Reasonable settings</h3>
+
+                        <p>The settings that we add to the application are things we believe the users want to be able
+                            to change. Things like a dark mode for using the app in low light settings, or language
+                            selections in app as we know people may have their phone in one language but would prefer
+                            to have the app displaying something else.
+                        </p>
+
+
+                    </div>
+
+                </div> <!-- /bgrid -->
+
+                <div class="bgrid feature" data-aos="fade-up">
+
+                    <span class="icon"><i class="icon-paint-brush"></i></span>
+
+                    <div class="service-content">
+
+                        <h3>TalkBack tested</h3>
+
+                        <p>We attempt to make our apps visually impaired friendly. We manually test using Google Android
+                            TalkBack to ensure what it says makes sense for someone who relies on audio feedback.
+                        </p>
+
+                    </div>
+
+                </div> <!-- /bgrid -->
+
+                <div class="bgrid feature" data-aos="fade-up">
+
+                    <span class="icon"><i class="icon-file"></i></span>
+
+                    <div class="service-content">
+                        <h3>Clean code</h3>
+
+                        <p>We have been developing software for well over 20 years and we know the value of code that
+                            can be maintained over a long period of time. For us it is imperative to keep the code clean
+                            and maintainable for the long term.
+                        </p>
+
+                    </div>
+
+                </div> <!-- /bgrid -->
+
+                <div class="bgrid feature" data-aos="fade-up">
+
+                    <span class="icon"><i class="icon-eye"></i></span>
+
+                    <div class="service-content">
+                        <h3>Human tested & used </h3>
+
+                        <p>Our subject matter expects do indeed use these apps weekly if not daily. Since they use
+                            these apps we will hear about any issues as soon as they encounter them.
+                        </p>
+                    </div>
+
+                </div> <!-- /bgrid -->
+
+                <div class="bgrid feature" data-aos="fade-up">
+
+                    <span class="icon"><i class="icon-dollar"></i></span>
+
+                    <div class="service-content">
+                        <h3>No advertising</h3>
+
+                        <p>We. hate. advertising. Therefore we will charge a small amount of money, about the cost of a
+                            pint, to purchase each of our apps. We understand that people may feel that this is too
+                            expensive for an app, if you feel that way there are plenty of free alternatives available.
+                        </p>
+
+                    </div>
+
+                </div> <!-- /bgrid -->
+
+            </div> <!-- end features-list -->
+
+        </div> <!-- end about-features -->
+
+        <div class="row about-bottom-image">
+
+            <img src="images/app-screens-1200.png" srcset="images/app-screens-600.png 600w, 
+                        images/app-screens-1200.png 1200w, 
+                        images/app-screens-2800.png 2800w" sizes="(max-width: 2800px) 100vw, 2800px"
+                alt="App Screenshots" data-aos="fade-up">
+
+        </div> <!-- end about-bottom-image -->
+
+    </section> <!-- end about -->
+
+
+    <!-- Our apps
+    ================================================== -->
+    <section id="our-apps">
+        <div class="row our-apps-content">
+
+            <div class="col-four our-apps-intro">
+                <h1 class="intro-header" data-aos="fade-up">Our apps</h1>
+
+                <p data-aos="fade-up">Even though Flutter apps are inherently cross platform our apps are currently only
+                    available on Google Play. If there is a demand for our products on the Apple ecosystem we invest
+                    in the appropriate hardware to be able to publish to Apple.
+                </p>
+            </div>
+
+            <div class="col-eight our-apps-table">
+                <div class="row">
+
+                    <div class="col-six plan-wrap">
+                        <div class="plan-block" data-aos="fade-up">
+
+                            <div class="plan-top-part">
+                                <h3 class="plan-block-title">metrofome</h3>
+                                <p class="plan-block-price"><sup>$</sup>4.99</p>
+                                <p class="plan-block-per">Canadain</p>
+                            </div>
+
+                            <div class="plan-bottom-part">
+                                <ul class="plan-block-features">
+                                    <li><span>Metronome</span> & <span>Measure</span> modes</li>
+                                    <li><span>Many</span> options & settings</li>
+                                    <li>Translated to <span>Spanish, and French</span></li>
+                                    <li>View the <a href="metrofome-privacy\index.html" target="_blank"
+                                            title="Privacy policy"><span>privacy policy</span></a></li>
+                                </ul>
+
+                                <ul class="download-badges">
+                                    <li><a href="#" title="" class="badge-googleplay" data-aos="fade-up">Play
+                                            Store</a></li>
+                                    <div>* When Google approves the app.</div>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div> <!-- end plan-wrap -->
+
+                    <div class="col-six plan-wrap">
+                        <div class="plan-block" data-aos="fade-up">
+
+                            <div class="plan-top-part">
+                                <h3 class="plan-block-title">solfege</h3>
+                                <p class="plan-block-price"><sup>Coming soon</sup></p>
+                                <!-- <p class="plan-block-per">Canadain</p> -->
+                            </div>
+
+                            <div class="plan-bottom-part">
+                                <ul class="plan-block-features">
+                                    <li>Features <span>TBD</span></li>
+                                </ul>
+
+                                <!-- <ul class="download-badges">
+                                    <li><a href="#" title="" class="badge-googleplay" data-aos="fade-up">Play
+                                            Store</a></li>
+                                            <div>* When Google approves the app.</div> -->
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div> <!-- end plan-wrap -->
+
+                </div>
+            </div> <!-- end our-apps-table -->
+
+        </div> <!-- end our-apps-content -->
+    </section> <!-- end our-apps -->
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+
+        <div class="footer-bottom">
+
+            <div class="row">
+
+                <div class="col-twelve">
+                    <div class="copyright">
+                        <span>© Copyright simplyworks.dev 2020.</span>
+                        <span>Contact - <a href="mailto:admin@simplyworks.dev">admin@simplyworks.dev</a></span>
+                        <span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>
+                        <span>Photo by <a
+                                href="https://unsplash.com/@blurrystock?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">blurrystock</a>
+                            on <a
+                                href="https://unsplash.com/s/photos/software-development?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+                    </div>
+
+                    <div id="go-top">
+                        <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up"></i></a>
+                    </div>
+                </div>
+
+            </div> <!-- end footer-bottom -->
+
+        </div>
+
+    </footer>
+
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>
